@@ -1,0 +1,1 @@
+<x-layout><h1>Hello World from About Page</h1></x-layout>
