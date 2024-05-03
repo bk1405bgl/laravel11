@@ -23,6 +23,26 @@ Route::get('/jobs', function () {
             'id' => 3,
             'title' => 'Designer',
             'salary' => '30k'
+        ],
+        [
+            'id' => 4,
+            'title' => 'Manager',
+            'salary' => '45k'
+        ],
+        [
+            'id' => 5,
+            'title' => 'Analyst',
+            'salary' => '35k'
+        ],
+        [
+            'id' => 6,
+            'title' => 'Engineer',
+            'salary' => '40k'
+        ],
+        [
+            'id' => 7,
+            'title' => 'Administrator',
+            'salary' => '35k'
         ]
         ]
     ]);
@@ -45,6 +65,26 @@ Route::get('/jobs/{id}', function ($id) {
             'id' => 3,
             'title' => 'Designer',
             'salary' => '30k'
+        ],
+        [
+            'id' => 4,
+            'title' => 'Manager',
+            'salary' => '45k'
+        ],
+        [
+            'id' => 5,
+            'title' => 'Analyst',
+            'salary' => '35k'
+        ],
+        [
+            'id' => 6,
+            'title' => 'Engineer',
+            'salary' => '40k'
+        ],
+        [
+            'id' => 7,
+            'title' => 'Administrator',
+            'salary' => '35k'
         ]
         ];
         $job = Arr::first($jobs, fn($job) => $job['id'] == $id);
